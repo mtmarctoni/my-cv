@@ -1,0 +1,57 @@
+:root {
+    /* Primary and Secondary colors */
+    --color-primary: #4a90e2;
+    --color-primary-light: #72a8e8;
+    --color-primary-dark: #3a72b4;
+    --color-secondary: #f39c12;
+    --color-secondary-light: #f5b041;
+    --color-secondary-dark: #d68910;
+  
+    /* Background and Text colors */
+    --color-background: #ffffff;
+    --color-background-alt: #f8f9fa;
+    --color-text: #333333;
+    --color-text-light: #6c757d;
+  
+    /* Accent colors */
+    --color-accent-1: #e74c3c;  /* A vibrant red */
+    --color-accent-2: #2ecc71;  /* A fresh green */
+    --color-accent-3: #9b59b6;  /* A soft purple */
+  
+    /* Neutral colors */
+    --color-neutral-100: #f8f9fa;
+    --color-neutral-200: #e9ecef;
+    --color-neutral-300: #dee2e6;
+    --color-neutral-400: #ced4da;
+    --color-neutral-500: #adb5bd;
+  }
+  
+  .dark {
+    /* Primary and Secondary colors */
+    --color-primary: #61a5f3;
+    --color-primary-light: #89bdf6;
+    --color-primary-dark: #4a84c2;
+    --color-secondary: #ffc04d;
+    --color-secondary-light: #ffd279;
+    --color-secondary-dark: #cc9a3e;
+  
+    /* Background and Text colors */
+    --color-background: #2c2c2c;
+    --color-background-alt: #3a3a3a;
+    --color-text: #f0f0f0;
+    --color-text-light: #b0b0b0;
+  
+    /* Accent colors */
+    --color-accent-1: #ff6b6b;  /* A softer red for dark mode */
+    --color-accent-2: #5cdb95;  /* A brighter green for dark mode */
+    --color-accent-3: #c39bd3;  /* A lighter purple for dark mode */
+  
+    /* Neutral colors */
+    --color-neutral-100: #3a3a3a;
+    --color-neutral-200: #4a4a4a;
+    --color-neutral-300: #5a5a5a;
+    --color-neutral-400: #6a6a6a;
+    --color-neutral-500: #7a7a7a;
+  }
+  
+  
