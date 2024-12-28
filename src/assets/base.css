@@ -14,9 +14,9 @@
     --color-text-light: #6c757d;
   
     /* Accent colors */
-    --color-accent-1: #e74c3c;  /* A vibrant red */
-    --color-accent-2: #2ecc71;  /* A fresh green */
-    --color-accent-3: #9b59b6;  /* A soft purple */
+    --color-accent-1: #e74d3ca4;  /* A vibrant red */
+    --color-accent-2: #2ecc7098;  /* A fresh green */
+    --color-accent-3: #9c59b6a1;  /* A soft purple */
   
     /* Neutral colors */
     --color-neutral-100: #f8f9fa;

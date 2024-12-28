@@ -9,7 +9,7 @@ defineEmits(['toggle-dark-mode'])
 <template>
     <nav class="fixed top-0 left-0 right-0 bg-background dark:bg-background-alt shadow-md z-50">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-        <div class="text-xl font-bold text-primary dark:text-primary-light">{{ displayName }}</div>
+        <div class="text-xl font-bold text-primary dark:text-primary-light">{{ displayName }} CV</div>
         <div class="flex items-center space-x-4">
           <!-- <a href="#" class="text-text dark:text-text-light hover:text-primary dark:hover:text-primary-light">Home</a> -->
       <button @click="$emit('toggle-dark-mode')" class="p-2 rounded-full bg-neutral-200 dark:bg-neutral-700">

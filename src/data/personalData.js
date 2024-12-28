@@ -12,51 +12,63 @@ export const personalData = {
   },
   education: [
     {
-      degree: 'Bachelor of Nanoscience and nanotechnology',
-      university: 'Autonomous University of Barcelona - UAB',
-      year: '2013-2017',
+      id: 2,
+      img: 'https://scontent-bcn1-1.xx.fbcdn.net/v/t39.30808-1/347410309_650684850422308_8705133493540061448_n.png?stp=dst-png_s200x200&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=pDau4INnyycQ7kNvgEq3xcQ&_nc_zt=24&_nc_ht=scontent-bcn1-1.xx&_nc_gid=AmHdfWqXzEPHY-XNZTb1Xda&oh=00_AYDbDROTK-eJ-i-EbybOKakymP8D9_UmTwsE_i8nnNsfkw&oe=67761CD9',
+      imgD: 'https://scontent-bcn1-1.xx.fbcdn.net/v/t39.30808-1/347410309_650684850422308_8705133493540061448_n.png?stp=dst-png_s200x200&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=pDau4INnyycQ7kNvgEq3xcQ&_nc_zt=24&_nc_ht=scontent-bcn1-1.xx&_nc_gid=AmHdfWqXzEPHY-XNZTb1Xda&oh=00_AYDbDROTK-eJ-i-EbybOKakymP8D9_UmTwsE_i8nnNsfkw&oe=67761CD9',
+      degree: 'Master in Renewable Energy and Energy Efficiency',
+      university: 'International University Center of Barcelona - UNIBA',
+      year: '2018-2019',
       city: 'Barcelona'
-
     },
     {
+      id: 1,
+      img: '/my-cv/src/media/uab-logo.png',
+      imgD: '/my-cv/src/media/uab-logo-dark.png',
       degree: 'Bachelor of Physisc',
       university: 'Autonomous University of Barcelona - UAB',
       year: '2015-2019',
       city: 'Barcelona'
-
     },
     {
-      degree: 'Master in Renewable Energy and Energy Efficiency',
-      university: 'Online University of Barcelona - UNIBA',
-      year: '2018-2019',
+      id: 0,
+      img: '/my-cv/src/media/uab-logo.png',
+      imgD: '/my-cv/src/media/uab-logo-dark.png',
+      degree: 'Bachelor of Nanoscience and nanotechnology',
+      university: 'Autonomous University of Barcelona - UAB',
+      year: '2013-2017',
       city: 'Barcelona'
-
-    }
+    },
   ],
   experience: [
     {
-      company: 'The Institute of Photonic Sciences - ICFO',
-      title: 'Summer Internship',
-      period: 'Summer 2016',
-      city: 'Barcelona'
-    },
-    {
-      company: 'Institute of Materials Science of Barcelona - ICMAB-CSIC',
-      title: 'Internship',
-      period: '2017-1018',
-      city: 'Barcelona'
-    },
-    {
-      company: 'Autodidact',
-      title: 'Entrepreneurship',
-      period: '2019-2021',
-      city: 'Palma de Mallorca'
-    },
-    {
+      id: 4,
       company: 'EFIWATT',
+      img: 'https://efiwatt.com/wp-content/uploads/2024/02/Logo-efiwatt.svg',
+      imgD: 'https://efiwatt.com/wp-content/uploads/2024/05/EFIWATT-Isotipo-cerrado-300x92.png',
+      title: 'Director of solar engineering and innovation',
+      period: 'January 2022 - November 2024',
+      city: 'Marratxí, Balearic Islands, Spain',
+      description: '',
+      duties: [
+        'Oversee and lead the technical department, responsible for solar projects end-to-end execution and efficiency',
+        'Develop and optimize photovoltaic solutions for residential and commercial applications, ensuring energy production optimization.',
+        'Spearhead the enhancement of solar design software.',
+        'Drive process automation to increase operational efficiency, saving time and resources for strategic initiatives.',
+        'Innovate new software tools to streamline workflows, improve user experiences, and facilitate decision-making.',
+        'Leverage Microsoft Power Tools and Javascript skills to automate tasks, enhance software, and drive data-driven insights.',
+        'Expertly employ data analysis tools like Excel and Power BI to parse and interpret solar production and consumption data, generating insightful reports for system optimization and error detection.',
+        'Coordinate budgets, legal compliance, and stakeholder communication to ensure successful project outcomes.'
+      ]
+    },
+    {
+      id: 3,
+      company: 'EFIWATT',
+      img: 'https://efiwatt.com/wp-content/uploads/2024/02/Logo-efiwatt.svg',
+      imgD: 'https://efiwatt.com/wp-content/uploads/2024/05/EFIWATT-Isotipo-cerrado-300x92.png',
       title: 'Renewable eneergy project manager',
-      period: '2021-2022',
-      city: 'Palma de Mallorca',
+      period: 'February 2021 - January 2022',
+      city: 'Marratxí, Balearic Islands, Spain',
+      description: '',
       duties: [
         'Lead the technical department.',
         'Management of photovoltaic material. Contact with suppliers and choice of the best type of material for each installation.',
@@ -70,21 +82,41 @@ export const personalData = {
       ]
     },
     {
-      company: 'EFIWATT',
-      title: 'Director of solar engineering and innovation',
-      period: '2022-2024',
-      city: 'Palma de Mallorca',
+      id: 2,
+      company: 'Autodidact',
+      img: '/my-cv/src/media/software-icon.png',
+      imgD: '/my-cv/src/media/software-icon.png',
+      title: 'Entrepreneurship',
+      period: '2019-2021',
+      city: 'Palma de Mallorca, Balearic Islands, Spain',
+      duties: [],
+    },
+    {
+      id: 1,
+      company: 'Institute of Materials Science of Barcelona - ICMAB-CSIC',
+      img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Logo-InstitutdeCienciadeMaterials-CSIC-SeveroOchoa.jpg/140px-Logo-InstitutdeCienciadeMaterials-CSIC-SeveroOchoa.jpg',
+      imgD: 'https://media.icmab.es/logos/icmab/ochoa-blanco-no-ochoa.svg',
+      title: 'Internship',
+      period: 'September 2017- July 2018',
+      city: 'Barcelona, Spain',
+      description: 'Theory and Simulation Group led by Jordi Faraudo. Computational simulations of molecular dynamics of prebiotic molecules using NAMD / VMD.',
+      duties: [],
+    },
+    {
+      id: 0,
+      company: 'The Institute of Photonic Sciences - ICFO',
+      img: 'https://www.icfo.eu/wp-content/uploads/2019/05/ICFO.svg',
+      imgD: 'https://www.icfo.eu/wp-content/themes/Divi-child/img/ICFO_blanc.svg',
+      title: 'Summer Internship',
+      period: 'June 2016 - October 2016',
+      city: 'Barcelona, Spain',
+      description: 'Ultrafast Optical Dynamics of Solids Gruop led by Professor Simon Wall.',
       duties: [
-        'Oversee and lead the technical department, responsible for solar projects end-to-end execution and efficiency',
-        'Develop and optimize photovoltaic solutions for residential and commercial applications, ensuring energy production optimization.',
-        'Spearhead the enhancement of solar design software.',
-        'Drive process automation to increase operational efficiency, saving time and resources for strategic initiatives.',
-        'Innovate new software tools to streamline workflows, improve user experiences, and facilitate decision-making.',
-        'Leverage Microsoft Power Tools and Javascript skills to automate tasks, enhance software, and drive data-driven insights.',
-        'Expertly employ data analysis tools like Excel and Power BI to parse and interpret solar production and consumption data, generating insightful reports for system optimization and error detection.',
-        'Coordinate budgets, legal compliance, and stakeholder communication to ensure successful project outcomes.'
-      ]
-    }
+        'Work with femtosecond laser.',
+        'Characterization of ultra-fast laser pulses.',
+        'Study of phase change materials using the "Pump-Probe" technique.',
+      ],
+    },
   ],
   skills: [
     'Photovoltaic systems',
