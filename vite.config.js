@@ -8,6 +8,7 @@ export default defineConfig({
     vue(),
     svgLoader()
   ],
+  base: '/my-cv/',
   css: {
     postcss: {
       plugins: [
