@@ -3,7 +3,7 @@ import { personalData } from '../data/personalData.js'
 import {SolidityIcon} from '../composables/icons.js'
 
 const { skills } = personalData
-const basePath = '/my-cv/src/icons'
+const basePath = process.env.NODE_ENV === 'production' ? '/icons' : '/my-cv/public/icons'
 
 const skillCategories = [
   {
