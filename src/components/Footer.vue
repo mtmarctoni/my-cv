@@ -8,8 +8,8 @@ const currentYear = computed(() => new Date().getFullYear())
 </script>
 
 <template>
-    <footer class="bg-gray-100 dark:bg-gray-800 py-8 mt-12">
-      <div class="container mx-auto px-4">
+    <footer class="bg-background py-8 mt-6">
+      <div class="container mx-auto px-8 max-w-3xl">
         <div class="flex flex-col md:flex-row justify-between items-center">
           <p class="text-gray-600 dark:text-gray-300 text-sm mb-4 md:mb-0">
             © {{ currentYear }} {{displayName}}. All rights reserved.

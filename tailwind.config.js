@@ -16,6 +16,7 @@ export default {
         secondaryDark: 'var(--color-secondary-dark)',
         background: 'var(--color-background)',
         backgroundAlt: 'var(--color-background-alt)',
+        backgroundAlt2: 'var(--color-background-alt-2)',
         text: 'var(--color-text)',
         textLight: 'var(--color-text-light)',
         accent1: 'var(--color-accent-1)',
