@@ -16,7 +16,7 @@ const name = `${firstName} ${lastName}`
         <div class="flex flex-col md:flex-row items-center md:items-center mt-6">
             <div class="w-full md:w-1/2 md:order-2 flex justify-center mb-8 md:mb-0">
                 <div class="w-64 h-64 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-primary shadow-xl">
-                    <img src="/my-cv/media/profile-picture.jpeg" alt="Profile Picture" class="w-full h-full object-cover">
+                    <img src="/media/profile-picture.jpeg" alt="Profile Picture" class="w-full h-full object-cover">
                 </div>
             </div>
 
