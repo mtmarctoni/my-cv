@@ -197,6 +197,8 @@ export const personalDataES = {
                     { name: 'Solidity', icon: 'solidity-blue.svg' },
                     { name: 'SQL', icon: 'sql.svg' },
                     { name: 'Git', icon: 'git.svg' },
+                    { name: 'VS Code', icon: 'vscode.svg' },
+
                 ],
                 basicKnowledge: [
                     { name: 'TypeScript', icon: 'typescript.svg' },
