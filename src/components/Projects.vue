@@ -1,8 +1,6 @@
 <script setup>
-import { personalData } from '../data/personalData'
-
+const { personalData } = defineProps(['personalData'])
 const { title, subtitle, projectList } = personalData.projects
-
 </script>
 <template>
      <section class="mb-12">

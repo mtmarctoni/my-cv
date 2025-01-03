@@ -1,11 +1,15 @@
 <script setup>
-import { personalData } from '../data/personalData.js'
 import { EmailIcon, PhoneIcon, LocationIcon, WorkIcon, ghIcon, LinkedInIcon } from '../composables/icons.js';
 
 import ContactItem from './ContactItem.vue'
 
+const { personalData } = defineProps(['personalData'])
+
 const { firstName, lastName, position, email, phone, location, summary, title, titleSummary } = personalData.profile
 const name = `${firstName} ${lastName}`
+const { myLinkedin, myGitHub } = personalData.socialMedia
+const linkedinLink = `https://www.linkedin.com/in/${myLinkedin}`
+const githubLink = `https://github.com/${myGitHub}`
 </script>
 
 <template>
@@ -30,8 +34,8 @@ const name = `${firstName} ${lastName}`
                     <ContactItem :icon="EmailIcon" :text="email" :href="`mailto:${email}`" />
                     <ContactItem :icon="PhoneIcon" :text="phone" />
                     <ContactItem :icon="LocationIcon" :text="location" />
-                    <ContactItem :icon="ghIcon" text="@mtmarctoni" href="https://github.com/mtmarctoni" />
-                    <ContactItem :icon="LinkedInIcon" text="Connect on LinkedIn" href="https://linkedin.com/in/marconimas" />
+                    <ContactItem :icon="ghIcon" :text="`@${myGitHub}`" :href="githubLink" />
+                    <ContactItem :icon="LinkedInIcon" text="Connect on LinkedIn" :href="linkedinLink" />
                 </div>
             </section>
         </div>

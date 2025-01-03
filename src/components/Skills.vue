@@ -1,9 +1,7 @@
 <script setup>
-import { personalData } from '../data/personalData.js'
-
+const { personalData } = defineProps(['personalData'])
 const { title, subtitle, skillCategories } = personalData.skills
 const basePath = '/my-cv/icons'
-
 </script>
 
 <template>

@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
-    "deploy:full": "git add . && git commit -m 'update' && git push -u origin main && npm run build && npm run deploy"
+    "deploy:full": "git add . && git commit -m update && git push -u origin main && npm run build && npm run deploy"
   },
   "dependencies": {
     "vue": "^3.5.13"

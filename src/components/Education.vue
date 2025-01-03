@@ -1,8 +1,6 @@
 <script setup>
-import { personalData } from '../data/personalData.js'
-
+const { personalData } = defineProps(['personalData'])
 const {title, subtitle, educationList, transcriptButton} = personalData.education
-
 </script>
 
 <template>
@@ -10,18 +8,20 @@ const {title, subtitle, educationList, transcriptButton} = personalData.educatio
     <h2 class="text-3xl font-bold text-primary mb-8">{{title}}</h2>
     <div v-for="edu in educationList" :key="edu.id" class="mb-5 bg-backgroundAlt2 rounded-lg shadow-lg overflow-hidden">
       <div class="md:flex">
-        <div class="md:flex-shrink-0 md:w-48 flex flex-col items-center justify-center p-4">
+        <div class="md:flex-shrink-0 md:w-48 flex flex-col items-center justify-center p-4 md:border-r-2 border-b-2 md:border-b-backgroundAlt2 border-secondaryLight">
           <div class="w-36 h-36 flex items-center justify-center">
-            <img class="max-w-full max-h-full object-contain dark:hidden" 
+            <a :href="edu.link" target="_blank" rel="noopener noreferrer">
+              <img class="max-w-full max-h-full object-contain dark:hidden" 
               :src="edu.img" :alt="edu.university"
-            >
-            <img class="max-w-full max-h-full object-contain hidden dark:block" 
+              >
+              <img class="max-w-full max-h-full object-contain hidden dark:block" 
               :src="edu.imgD" :alt="edu.university"
-            >
+              >
+            </a>
           </div>
           <p class="mt-4 text-center text-sm text-textLight">{{ edu.year }}</p>
         </div>
-        <div class="p-4 md:px-8 flex-grow md:border-l-2 border-secondaryLight text-center md:text-start">
+        <div class="p-4 md:px-8 flex-grow text-center md:text-start">
             <h3 class="text-lg font-semibold text-secondary">{{ edu.university }}</h3>
             <div class="text-xl text-primary font-semibold">{{ edu.degree }}</div>
             <p v-if="edu.description" class="mt-2 text-text">{{ edu.description }}</p>

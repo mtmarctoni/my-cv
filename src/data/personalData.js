@@ -1,4 +1,17 @@
+/*
+cambiar summary
+
+añadir projectos
+*/
+
 export const personalData = {
+  socialMedia: {
+    myLinkedin: 'marctonimas',
+    //myTwitter: 'mtmarctoni',
+    //myInstagram: 'mtmarctoni',
+    myGitHub: 'mtmarctoni',
+    //myStackOverflow: 'mtmarctoni',
+  },
   profile: {
     title: 'Contact Information',
     titleSummary: 'Summary',
@@ -10,7 +23,7 @@ export const personalData = {
     location: 'Palma de Mallorca',
     email: 'marctonimas@outlook.es',
     phone: '+34 652 13 48 06',
-    summary: 'Innovative technology leader transitioning from solar engineering to web development and blockchain. Combining 10+ years of experience in optimizing complex systems and driving automation with emerging skills in JavaScript, React, and Solidity. Seeking to leverage unique blend of renewable energy expertise and software development passion to create cutting-edge solutions at the intersection of sustainability and blockchain technology.',
+    summary: 'Innovative engineer transitioning from solar energy to web development and automation. Combining 4+ years of experience in optimizing complex systems with emerging skills in JavaScript, React, and blockchain technologies. Passionate learner and problem-solver, eager to tackle new challenges in software development. Seeking to leverage unique blend of renewable energy expertise and coding enthusiasm to create cutting-edge solutions at the intersection of sustainability and technology.',
   },
   education: {
     title: 'Education',
@@ -23,6 +36,7 @@ export const personalData = {
         imgD: 'https://scontent-bcn1-1.xx.fbcdn.net/v/t39.30808-1/347410309_650684850422308_8705133493540061448_n.png?stp=dst-png_s200x200&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=pDau4INnyycQ7kNvgEq3xcQ&_nc_zt=24&_nc_ht=scontent-bcn1-1.xx&_nc_gid=AmHdfWqXzEPHY-XNZTb1Xda&oh=00_AYDbDROTK-eJ-i-EbybOKakymP8D9_UmTwsE_i8nnNsfkw&oe=67761CD9',
         degree: 'Master of Renewable Energy and Energy Efficiency',
         university: 'International University Center of Barcelona - UNIBA',
+        link: 'https://oncampus.unibarcelona.com',
         year: '2018 - 2019',
         city: 'Barcelona',
         description: 'Gained in-depth knowledge of solar energy systems, from cell physics to large-scale implementation. Conducted thesis research on hydrogen as a future energy vector, exploring its potential as a clean fuel for electric vehicles and storage solution in the evolving global energy landscape.',
@@ -34,6 +48,7 @@ export const personalData = {
         imgD: '/my-cv/media/uniwien-logo-dark.webp',
         degree: 'Erasmus Semester, Physisc',
         university: 'Universität Wien',
+        link: 'https://www.univie.ac.at',
         year: 'Winter Semester 2018',
         city: 'Vienna',
         description: 'Completed a semester at the University of Vienna, focusing on advanced quantum physics. Excelled in Quantum Thermodynamics, Optics, and Mechanics courses. This experience deepened my understanding of quantum concepts and provided international academic exposure.',
@@ -45,6 +60,7 @@ export const personalData = {
         imgD: '/my-cv/media/uab-logo-dark.png',
         degree: 'Bachelor of Physisc',
         university: 'Autonomous University of Barcelona - UAB',
+        link: 'https://www.uab.cat',
         year: '2015 - 2019',
         city: 'Barcelona',
         description: '',
@@ -56,6 +72,7 @@ export const personalData = {
         imgD: '/my-cv/media/uab-logo-dark.png',
         degree: 'Bachelor of Nanoscience and nanotechnology',
         university: 'Autonomous University of Barcelona - UAB',
+        link: 'https://www.uab.cat',
         year: '2013 - 2017',
         city: 'Barcelona',
         description: '',
@@ -70,8 +87,9 @@ export const personalData = {
       {
         id: 4,
         company: 'EFIWATT',
-        img: 'https://efiwatt.com/wp-content/uploads/2024/02/Logo-efiwatt.svg',
-        imgD: 'https://efiwatt.com/wp-content/uploads/2024/05/EFIWATT-Isotipo-cerrado-300x92.png',
+        link: 'https://efiwatt.com/',
+        img: '/my-cv/icons/logo-efiwatt.svg',
+        imgD: '/my-cv/icons/logo-efiwatt-dark.svg',
         title: 'Director of Solar Engineering and Innovation',
         period: 'January 2022 - November 2024',
         city: 'Marratxí, Balearic Islands, Spain',
@@ -90,8 +108,9 @@ export const personalData = {
       {
         id: 3,
         company: 'EFIWATT',
-        img: 'https://efiwatt.com/wp-content/uploads/2024/02/Logo-efiwatt.svg',
-        imgD: 'https://efiwatt.com/wp-content/uploads/2024/05/EFIWATT-Isotipo-cerrado-300x92.png',
+        link: 'https://efiwatt.com/',
+        img: '/my-cv/icons/logo-efiwatt.svg',
+        imgD: '/my-cv/icons/logo-efiwatt-dark.svg',
         title: 'Renewable Energy Project Manager',
         period: 'February 2021 - January 2022',
         city: 'Marratxí, Balearic Islands, Spain',
@@ -111,18 +130,27 @@ export const personalData = {
       {
         id: 2,
         company: 'Autodidact',
+        link: '',
         img: '/my-cv/icons/software-icon.svg',
         imgD: '/my-cv/icons/software-icon.svg',
         title: 'Entrepreneurship',
         period: '2019 - 2021',
         city: 'Palma de Mallorca, Balearic Islands, Spain',
-        duties: [],
+        description: 'Founded and managed a digital marketing company, gaining hands-on experience in business management and client relations. Simultaneously developed coding skills, focusing on JavaScript, web development, and excel automation.',
+        duties: [
+          'Developed and executed digital marketing strategies for diverse clients.',
+          'Self-taught JavaScript, web development, and Excel VBA for business automation.',
+          'Managed all aspects of business operations, from client acquisition to project delivery.',
+          'Adapted to market challenges, enhancing problem-solving and decision-making skills.',
+          'Demonstrated capacity for independent work, efficient time management, and continuous learning.',
+        ],
       },
       {
         id: 1,
         company: 'Institute of Materials Science of Barcelona - ICMAB-CSIC',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Logo-InstitutdeCienciadeMaterials-CSIC-SeveroOchoa.jpg/140px-Logo-InstitutdeCienciadeMaterials-CSIC-SeveroOchoa.jpg',
-        imgD: 'https://media.icmab.es/logos/icmab/ochoa-blanco-no-ochoa.svg',
+        link: 'https://www.icmab.es/',
+        img: '/my-cv/icons/faviconblue-icmab.svg',
+        imgD: '/my-cv/icons/logo-icmab-dark.svg',
         title: 'Internship',
         period: 'September 2017- July 2018',
         city: 'Barcelona, Spain',
@@ -136,6 +164,7 @@ export const personalData = {
       {
         id: 0,
         company: 'The Institute of Photonic Sciences - ICFO',
+        link: 'https://www.icfo.eu/',
         img: 'https://www.icfo.eu/wp-content/uploads/2019/05/ICFO.svg',
         imgD: 'https://www.icfo.eu/wp-content/themes/Divi-child/img/ICFO_blanc.svg',
         title: 'Summer Internship',
@@ -195,7 +224,7 @@ export const personalData = {
         basicKnowledge: [
           { name: 'TypeScript', icon: 'typescript.svg' },
           { name: 'Hardhat', icon: 'hardhat.svg' },
-          { name: 'web3.js', icon: '' },
+          { name: 'web3', icon: '' },
           { name: 'Next', icon: '' },
           { name: 'Python', icon: 'python.svg' },
           ]
