@@ -15,6 +15,7 @@ export default {
         secondary: 'var(--color-secondary)',
         secondaryLight: 'var(--color-secondary-light)',
         secondaryDark: 'var(--color-secondary-dark)',
+        secondaryHover: 'var(--color-secondary-hover)',
         background: 'var(--color-background)',
         backgroundAlt: 'var(--color-background-alt)',
         backgroundAltHover: 'var(--color-background-alt-hover)',

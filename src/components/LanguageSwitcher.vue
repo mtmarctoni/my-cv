@@ -39,12 +39,12 @@ onUnmounted(() => {
 
 <template>
 <div class="language-switcher relative" ref="dropdownRef">
-    <button @click="toggleDropdown" class="bg-backgroundAlt text-text border border-background hover:border-secondaryLight rounded px-2 py-1 flex items-center">
+    <button @click="toggleDropdown" class="bg-backgroundAlt text-text hover:bg-secondaryLight hover:text-black transition-colors duration-300 rounded px-2 py-1 flex items-center">
     <img :src="getFlagSrc(currentLanguage)" :alt="currentLanguage" class="w-5 h-5 mr-2">
     {{ currentLanguage.toUpperCase() }}
     </button>
     <ul v-if="isOpen" class="absolute top-full left-0 mt-1 bg-background border border-secondary rounded shadow-lg">
-    <li v-for="lang in languages" :key="lang" @click="selectLanguage(lang)" class="px-2 py-1 hover:bg-backgroundAlt cursor-pointer flex items-center">
+    <li v-for="lang in languages" :key="lang" @click="selectLanguage(lang)" class="text-text hover:text-black px-2 py-1 hover:bg-secondaryLight transition-colors duration-300 cursor-pointer flex items-center">
         <img :src="getFlagSrc(lang)" :alt="lang" class="w-5 h-5 mr-2">
         {{ lang.toUpperCase() }}
     </li>

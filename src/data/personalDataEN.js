@@ -17,6 +17,7 @@ export const personalDataEN = {
       location: 'Palma de Mallorca',
       email: 'marctonimas@outlook.es',
       phone: '+34 652 13 48 06',
+      linkedin: 'Connect on LinkedIn',
       summary: 'Innovative engineer transitioning from solar energy to web development and automation. Combining 4+ years of experience in optimizing complex systems with emerging skills in JavaScript, React, and blockchain technologies. Passionate learner and problem-solver, eager to tackle new challenges in software development. Seeking to leverage unique blend of renewable energy expertise and coding enthusiasm to create cutting-edge solutions at the intersection of sustainability and technology.',
     },
     education: {
@@ -87,7 +88,7 @@ export const personalDataEN = {
           imgD: '/my-cv/icons/logo-efiwatt-dark.svg',
           title: 'Director of Solar Engineering and Innovation',
           period: 'January 2022 - November 2024',
-          city: 'Marratxí, Balearic Islands, Spain',
+          city: 'Palma, Balearic Islands, Spain',
           description: 'Supervised and optimized photovoltaic solutions, leading the development of design software and innovative tools to automate processes, improve workflows, and generate analytical reports that optimize energy production',
           duties: [
             'Oversee and lead the technical department, responsible for solar projects end-to-end execution and efficiency',
@@ -175,47 +176,44 @@ export const personalDataEN = {
       ],
     },
     skills: {
-      title: 'Skills',
+      title: 'Programming Skills',
       subtitle: 'Basic Knowledge',
       skillCategories: [
         {
-          name: 'Web Development',
+          name: 'Languages',
           skills: [
             { name: 'JavaScript', icon: 'javascript.svg' },
-            { name: 'React', icon: 'react.svg' },
-            { name: 'HTML', icon: 'html.svg' },
+            { name: 'Solidity', icon: 'solidity-blue.svg' },
+            { name: 'SQL', icon: 'sql.svg' },
+            { name: 'VBA', icon: 'vba.svg' },
           ],
           basicKnowledge: [
+            { name: 'TypeScript', icon: 'typescript.svg' },
+            { name: 'Python', icon: 'python.svg' },
+          ]
+        },
+        {
+          name: 'Web Development',
+          skills: [
+            { name: 'React', icon: 'react.svg' },
+            { name: 'HTML', icon: 'html.svg' },
             { name: 'CSS', icon: 'css.svg' },
+          ],
+          basicKnowledge: [
             { name: 'Node', icon: 'nodejs.svg' },
             { name: 'Express', icon: 'expressjs.svg' },
             { name: 'MongoDB', icon: 'mongodb.svg' },
             { name: 'Vue', icon: 'vue.svg' },
             { name: 'Tailwind', icon: 'tailwind.svg' },
-          ]
-        },
-        {
-          name: 'Languages and Other',
-          skills: [
-            { name: 'Solidity', icon: 'solidity-blue.svg' },
-            { name: 'SQL', icon: 'sql.svg' },
-            { name: 'Git', icon: 'git.svg' },
-            { name: 'VS Code', icon: 'vscode.svg' },
-          ],
-          basicKnowledge: [
-            { name: 'TypeScript', icon: 'typescript.svg' },
-            { name: 'Hardhat', icon: 'hardhat.svg' },
-            { name: 'web3', icon: '' },
             { name: 'Next', icon: '' },
-            { name: 'Python', icon: 'python.svg' },
           ]
         },
         {
-          name: 'Microsoft Power Platform',
+          name: 'Others',
           skills: [
             { name: 'Excel', icon: 'excel.svg' },
-            { name: 'VBA', icon: 'vba.svg' },
-            { name: 'Power Query', icon: 'excel.svg' },
+            { name: 'VS Code', icon: 'vscode.svg' },
+            { name: 'Git', icon: 'git.svg' },
             { name: 'Power BI', icon: 'power-bi.svg' },
             { name: 'Power Apps', icon: 'power-apps.svg' },
             { name: 'Power Automate', icon: 'power-automate.svg' },
@@ -223,6 +221,10 @@ export const personalDataEN = {
           basicKnowledge: [
             { name: 'DAX', icon: '' },
             { name: 'Office Scripts', icon: '' },
+            { name: 'Power Query', icon: '' },
+            { name: 'Power Pivot', icon: '' },
+            { name: 'web3', icon: '' },
+            { name: 'Hardhat', icon: 'hardhat.svg' },
           ]
         },
       ],

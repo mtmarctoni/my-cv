@@ -7,6 +7,7 @@
     --color-secondary: #f39c12;
     --color-secondary-light: #f5cb87;
     --color-secondary-dark: #d68910;
+    --color-secondary-hover: #eed8b4;
   
     /* Background and Text colors */
     --color-background: #ffffff;
@@ -38,6 +39,8 @@
     --color-secondary: #ffc04d;
     --color-secondary-light: #ffdd98;
     --color-secondary-dark: #cc9a3e;
+    --color-secondary-hover: #eed8b4;
+
   
     /* Background and Text colors */
     --color-background: #2c2c2c;

@@ -15,7 +15,10 @@ const isLink = computed(() => !!props.href)
       :href="isLink ? href : undefined" 
       :target="isLink ? '_blank' : undefined" 
       :rel="isLink ? 'noopener noreferrer' : undefined"
-      class="px-4 flex items-center text-text hover:text-secondaryDark transition-colors duration-300">
+      :class="isLink
+          ? 'px-4 flex items-center text-text hover:text-secondaryDark transition-colors duration-300'
+          : 'px-4 flex items-center text-text cursor-default'
+    ">
       <component :is="icon" class="h-5 w-5 mr-2" />
       {{ text }}
     </component>

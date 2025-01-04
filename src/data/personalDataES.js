@@ -1,7 +1,10 @@
 export const personalDataES = {
     socialMedia: {
         myLinkedin: 'marctonimas',
+        //myTwitter: 'mtmarctoni',
+        //myInstagram: 'mtmarctoni',
         myGitHub: 'mtmarctoni',
+        //myStackOverflow: 'mtmarctoni',
     },
     profile: {
         title: 'Información de Contacto',
@@ -14,6 +17,7 @@ export const personalDataES = {
         location: 'Palma de Mallorca',
         email: 'marctonimas@outlook.es',
         phone: '+34 652 13 48 06',
+        linkedin: 'Conectar en LinkedIn',
         summary: 'Ingeniero innovador en transición de la energía solar al desarrollo web y la automatización. Combinando más de 4 años de experiencia en la optimización de sistemas complejos con habilidades emergentes en JavaScript, React y tecnologías blockchain. Aprendiz apasionado y solucionador de problemas, ansioso por afrontar nuevos desafíos en el desarrollo de software. Buscando aprovechar una combinación única de experiencia en energías renovables y entusiasmo por la programación para crear soluciones de vanguardia en la intersección de la sostenibilidad y la tecnología.',
     },
     education: {
@@ -73,8 +77,8 @@ export const personalDataES = {
     },
     experience: {
         title: 'Experiencia Laboral',
-        dropdown: ['Mostrar menos', 'Mostrar más'],
         subtitle: '',
+        dropdown: ['Mostrar menos', 'Mostrar más'],
         jobList: [
             {
                 id: 4,
@@ -84,7 +88,7 @@ export const personalDataES = {
                 imgD: '/my-cv/icons/logo-efiwatt-dark.svg',
                 title: 'Director de Ingeniería Solar e Innovación',
                 period: 'Enero 2022 - Noviembre 2024',
-                city: 'Marratxí, Islas Baleares, España',
+                city: 'Palma, Islas Baleares, España',
                 description: 'Supervisé y optimicé soluciones fotovoltaicas, liderando el desarrollo de software de diseño y herramientas innovadoras para automatizar procesos, mejorar flujos de trabajo y generar informes analíticos que optimizan la producción de energía.',
                 duties: [
                     'Supervisar y liderar el departamento técnico, responsable de la ejecución y eficiencia de proyectos solares de principio a fin',
@@ -172,58 +176,58 @@ export const personalDataES = {
         ],
     },
     skills: {
-        title: 'Habilidades',
+        title: 'Habilidades de Programación',
         subtitle: 'Conocimientos Básicos',
         skillCategories: [
             {
-                name: 'Desarrollo Web',
-                skills: [
-                    { name: 'JavaScript', icon: 'javascript.svg' },
-                    { name: 'React', icon: 'react.svg' },
-                    { name: 'HTML', icon: 'html.svg' },
-                ],
-                basicKnowledge: [
-                    { name: 'CSS', icon: 'css.svg' },
-                    { name: 'Node', icon: 'nodejs.svg' },
-                    { name: 'Express', icon: 'expressjs.svg' },
-                    { name: 'MongoDB', icon: 'mongodb.svg' },
-                    { name: 'Vue', icon: 'vue.svg' },
-                    { name: 'Tailwind', icon: 'tailwind.svg' },
-                ]
+              name: 'Lenguajes',
+              skills: [
+                { name: 'JavaScript', icon: 'javascript.svg' },
+                { name: 'Solidity', icon: 'solidity-blue.svg' },
+                { name: 'SQL', icon: 'sql.svg' },
+                { name: 'VBA', icon: 'vba.svg' },
+              ],
+              basicKnowledge: [
+                { name: 'TypeScript', icon: 'typescript.svg' },
+                { name: 'Python', icon: 'python.svg' },
+              ]
             },
             {
-                name: 'Lenguajes y Otros',
-                skills: [
-                    { name: 'Solidity', icon: 'solidity-blue.svg' },
-                    { name: 'SQL', icon: 'sql.svg' },
-                    { name: 'Git', icon: 'git.svg' },
-                    { name: 'VS Code', icon: 'vscode.svg' },
-
-                ],
-                basicKnowledge: [
-                    { name: 'TypeScript', icon: 'typescript.svg' },
-                    { name: 'Hardhat', icon: 'hardhat.svg' },
-                    { name: 'web3', icon: '' },
-                    { name: 'Next', icon: '' },
-                    { name: 'Python', icon: 'python.svg' },
-                ]
+              name: 'Desarrollo Web',
+              skills: [
+                { name: 'React', icon: 'react.svg' },
+                { name: 'HTML', icon: 'html.svg' },
+                { name: 'CSS', icon: 'css.svg' },
+              ],
+              basicKnowledge: [
+                { name: 'Node', icon: 'nodejs.svg' },
+                { name: 'Express', icon: 'expressjs.svg' },
+                { name: 'MongoDB', icon: 'mongodb.svg' },
+                { name: 'Vue', icon: 'vue.svg' },
+                { name: 'Tailwind', icon: 'tailwind.svg' },
+                { name: 'Next', icon: '' },
+              ]
             },
             {
-                name: 'Microsoft Power Platform',
-                skills: [
-                    { name: 'Excel', icon: 'excel.svg' },
-                    { name: 'VBA', icon: 'vba.svg' },
-                    { name: 'Power Query', icon: 'excel.svg' },
-                    { name: 'Power BI', icon: 'power-bi.svg' },
-                    { name: 'Power Apps', icon: 'power-apps.svg' },
-                    { name: 'Power Automate', icon: 'power-automate.svg' },
-                ],
-                basicKnowledge: [
-                    { name: 'DAX', icon: '' },
-                    { name: 'Office Scripts', icon: '' },
-                ]
+              name: 'Otros',
+              skills: [
+                { name: 'Excel', icon: 'excel.svg' },
+                { name: 'VS Code', icon: 'vscode.svg' },
+                { name: 'Git', icon: 'git.svg' },
+                { name: 'Power BI', icon: 'power-bi.svg' },
+                { name: 'Power Apps', icon: 'power-apps.svg' },
+                { name: 'Power Automate', icon: 'power-automate.svg' },
+              ],
+              basicKnowledge: [
+                { name: 'DAX', icon: '' },
+                { name: 'Office Scripts', icon: '' },
+                { name: 'Power Query', icon: '' },
+                { name: 'Power Pivot', icon: '' },
+                { name: 'web3', icon: '' },
+                { name: 'Hardhat', icon: 'hardhat.svg' },
+              ]
             },
-        ],
+          ],
         otherSkills: []
     },
     projects: {

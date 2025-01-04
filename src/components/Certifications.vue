@@ -1,6 +1,4 @@
 <script setup>
-import { defineProps } from 'vue'
-
 const {personalData} = defineProps(['personalData'])
 
 const { title, subtitle, button, certificationList } = personalData.certifications

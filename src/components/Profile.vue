@@ -5,7 +5,7 @@ import ContactItem from './ContactItem.vue'
 
 const { personalData } = defineProps(['personalData'])
 
-const { firstName, lastName, position, email, phone, location, summary, title, titleSummary } = personalData.profile
+const { firstName, lastName, position, email, phone, location, summary, title, titleSummary, linkedin } = personalData.profile
 const name = `${firstName} ${lastName}`
 const { myLinkedin, myGitHub } = personalData.socialMedia
 const linkedinLink = `https://www.linkedin.com/in/${myLinkedin}`
@@ -25,7 +25,7 @@ const githubLink = `https://github.com/${myGitHub}`
             </div>
 
             <section class="w-full md:w-1/2 md:order-1 md:pr-8">
-                <h2 class="text-2xl font-semibold text-primary mb-4">{{title}}</h2>
+                <h2 class="text-2xl font-semibold text-primary mb-4 md:text-left text-center">{{title}}</h2>
                 <div class="space-y-2 justify-items-center md:justify-items-start">
                     <ContactItem 
                         class="bg-accent2 rounded-lg py-2" 
@@ -35,12 +35,12 @@ const githubLink = `https://github.com/${myGitHub}`
                     <ContactItem :icon="PhoneIcon" :text="phone" />
                     <ContactItem :icon="LocationIcon" :text="location" />
                     <ContactItem :icon="ghIcon" :text="`@${myGitHub}`" :href="githubLink" />
-                    <ContactItem :icon="LinkedInIcon" text="Connect on LinkedIn" :href="linkedinLink" />
+                    <ContactItem :icon="LinkedInIcon" :text="linkedin" :href="linkedinLink" />
                 </div>
             </section>
         </div>
         <section class="mb-8 mt-8">
-            <h2 class="text-2xl font-semibold text-primary mb-4">{{titleSummary}}</h2>
+            <h2 class="text-2xl font-semibold text-primary mb-4 md:text-left text-center">{{titleSummary}}</h2>
             <p class="text-text">{{ summary }}</p>
         </section>
     </header>
