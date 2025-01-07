@@ -178,11 +178,16 @@ export const personalDataEN = {
     skills: {
       title: 'Programming Skills',
       subtitle: 'Basic Knowledge',
+      names: [
+        'Languages',
+        'Web Development',
+        'Others'
+      ],
       skillCategories: [
         {
           name: 'Languages',
           skills: [
-            { name: 'JavaScript', icon: 'javascript.svg' },
+            { name: 'JavaScript', icon: 'javascript.svg?raw' },
             { name: 'Solidity', icon: 'solidity-blue.svg' },
             { name: 'SQL', icon: 'sql.svg' },
             { name: 'VBA', icon: 'vba.svg' },
@@ -254,8 +259,8 @@ export const personalDataEN = {
       ]
   },
   certifications: {
-    title: 'Certifications',
-    subtitle: 'Professional Certifications',
+    title: 'Certificates',
+    subtitle: 'Professional Certificates',
     button: 'View All',
     certificationList: [
       {
@@ -278,22 +283,18 @@ export const personalDataEN = {
       {
         name: "Spanish",
         level: "Mother Tongue",
-        flag: "/my-cv/icons/spain-flag.svg"
       },
       {
         name: "Catalan",
         level: "Mother Tongue",
-        flag: "/my-cv/icons/catalonia-flag.svg"
       },
       {
         name: "English",
         level: "Professional Use",
-        flag: "/my-cv/icons/english-flag.svg"
       },
       {
         name: "German",
         level: "Basic Level",
-        flag: "/my-cv/icons/german-flag.svg"
       }
     ],
   }

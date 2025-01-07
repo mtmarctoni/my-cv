@@ -177,7 +177,12 @@ export const personalDataES = {
     },
     skills: {
         title: 'Habilidades de Programación',
-        subtitle: 'Conocimientos Básicos',
+      subtitle: 'Conocimientos Básicos',
+      names: [
+        'Lenguajes',
+        'Desarrollo Web',
+        'Otros'
+      ],
         skillCategories: [
             {
               name: 'Lenguajes',

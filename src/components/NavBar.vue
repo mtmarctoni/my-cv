@@ -1,9 +1,14 @@
 <script setup>
 import LanguageSwitcher from './LanguageSwitcher.vue'
-import DarkModeToggle from './DarkModeToggle.vue';
+import DarkModeToggle from './DarkModeToggle.vue'
+import { downloadIcon } from '../composables/icons'
+import {data} from '../data/data'
 const { personalData, isDarkMode, currentLanguage } = defineProps(['personalData', 'isDarkMode', 'current-language'])
 const { displayName } = personalData.profile
 defineEmits(['language-changed', 'toggle-dark-mode'])
+
+const { cvPdfLink } = data
+
 </script>
 
 <template>
@@ -12,10 +17,9 @@ defineEmits(['language-changed', 'toggle-dark-mode'])
       <div class="md:text-xl text-lg font-bold text-primary">{{ displayName }} CV</div>
       <div class="flex items-center space-x-2 md:space-x-4">
         <div class="flex items-center space-x-4 bg-backgroundAlt p-2 rounded-3xl hover:bg-secondaryLight transition-colors duration-300">
-            <a href="/my-cv/transcripts/CV_MarcToniMas.pdf" target="_blank" rel="noopener noreferrer" 
+            <a :href="cvPdfLink" target="_blank" rel="noopener noreferrer" 
             class="inline-flex items-center text-sm text-primary hover:text-secondaryDark transition-colors duration-300">
-            <img src="/icons/download.svg?url" alt="Download" class="dark:hidden w-5 h-5" />
-            <img src="/icons/download-dark.svg?url" alt="Download" class="hidden dark:block w-5 h-5" />
+            <component :is="downloadIcon" class="text-text w-5 h-5" />
           </a>
         </div>
         <LanguageSwitcher 

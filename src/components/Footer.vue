@@ -1,9 +1,10 @@
 <script setup>
 import { computed } from 'vue'
+import { ghIcon, LinkedInIcon } from '../composables/icons'
 
-const { personalData } = defineProps(['personalData'])
-  
+const { personalData } = defineProps(['personalData'])  
 const currentYear = computed(() => new Date().getFullYear())
+
 const { displayName } = personalData.profile
 const { myLinkedin, myGitHub} = personalData.socialMedia
 const { copyright } = personalData.others
@@ -20,12 +21,11 @@ const { copyright } = personalData.others
           <div class="flex space-x-4">
             <a :href="`https://github.com/${myGitHub}`" target="_blank" rel="noopener noreferrer"
                class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors duration-300">
-              <img src="/icons/github-mark-white.svg?url" alt="GitHub" class="w-6 h-6 hidden dark:block" />
-              <img src="/icons/github-mark.svg?url" alt="GitHub" class="w-6 h-6 dark:hidden" />
+              <component :is="ghIcon" class="w-6 h-6"/>
             </a>
             <a :href="`https://linkedin.com/in/${myLinkedin}`" target="_blank" rel="noopener noreferrer"
                class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors duration-300">
-              <img src="/icons/linkedin-mark.svg?url" alt="LinkedIn" class="w-7 h-7" />
+              <component :is="LinkedInIcon" class="w-6 h-6"/>
             </a>
             <!-- another links -->
           </div>
