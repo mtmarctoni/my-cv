@@ -18,7 +18,7 @@ export const personalDataES = {
         email: 'marctonimas@outlook.es',
         phone: '+34 652 13 48 06',
         linkedin: 'Conectar en LinkedIn',
-        summary: 'Ingeniero innovador en transición de la energía solar al desarrollo web y la automatización. Combinando más de 4 años de experiencia en la optimización de sistemas complejos con habilidades emergentes en JavaScript, React y tecnologías blockchain. Aprendiz apasionado y solucionador de problemas, ansioso por afrontar nuevos desafíos en el desarrollo de software. Buscando aprovechar una combinación única de experiencia en energías renovables y entusiasmo por la programación para crear soluciones de vanguardia en la intersección de la sostenibilidad y la tecnología.',
+        summary: 'Profesional versátil en transición de la energía renovable al desarrollo web y la automatización de procesos. Combino más de 3 años de experiencia en ingeniería solar e innovación con un dominio avanzado de JavaScript y tecnologías blockchain. Tengo experiencia liderando iniciativas de desarrollo de software y automatizando flujos de trabajo. Soy un apasionado resolutor de problemas con formación en física y nanociencia, entusiasmado por crear soluciones innovadoras en la intersección de la sostenibilidad y la tecnología. Destaco en análisis de datos, gestión de proyectos y desarrollo de herramientas personalizadas utilizando JavaScript, VBA y Microsoft Power Tools.',
     },
     education: {
         title: 'Educación',
@@ -34,7 +34,7 @@ export const personalDataES = {
                 link: 'https://oncampus.unibarcelona.com',
                 year: '2018 - 2019',
                 city: 'Barcelona',
-                description: 'Adquirí conocimientos profundos sobre sistemas de energía solar, desde la física de las celdas hasta la implementación a gran escala. Realicé una tesis de investigación sobre el hidrógeno como vector energético futuro, explorando su potencial como combustible limpio para vehículos eléctricos y solución de almacenamiento en el cambiante panorama energético global.',
+                description: 'Adquisición de conocimientos avanzados en sistemas de energía solar, abarcando desde los fundamentos físicos de las celdas fotovoltaicas hasta la implementación de proyectos a gran escala. Investigación en el hidrógeno como vector energético del futuro, analizando su potencial como combustible limpio para vehículos eléctricos y como solución de almacenamiento energético en el contexto de la transición energética global.',
                 transcript: ''
             },
             {
@@ -46,7 +46,7 @@ export const personalDataES = {
                 link: 'https://www.univie.ac.at',
                 year: 'Semestre de Invierno 2018',
                 city: 'Viena',
-                description: 'Completé un semestre en la Universidad de Viena, centrándome en física cuántica avanzada. Sobresalí en cursos de Termodinámica Cuántica, Óptica y Mecánica. Esta experiencia profundizó mi comprensión de los conceptos cuánticos y me proporcionó exposición académica internacional.',
+                description: 'Realización de un semestre de estudios en la Universidad de Viena, con enfoque en física cuántica avanzada. Esta experiencia internacional permitió profundizar en conceptos cuánticos complejos y ampliar la perspectiva académica en un entorno multicultural.',
                 transcript: ''
             },
             {
@@ -89,7 +89,7 @@ export const personalDataES = {
                 title: 'Director de Ingeniería Solar e Innovación',
                 period: 'Enero 2022 - Noviembre 2024',
                 city: 'Palma, Islas Baleares, España',
-                description: 'Supervisé y optimicé soluciones fotovoltaicas, liderando el desarrollo de software de diseño y herramientas innovadoras para automatizar procesos, mejorar flujos de trabajo y generar informes analíticos que optimizan la producción de energía.',
+                description: 'Supervisión y optimización de soluciones fotovoltaicas, liderando el desarrollo de software de diseño y herramientas innovadoras para la automatización de procesos, mejora de flujos de trabajo y generación de informes analíticos orientados a la optimización de la producción energética.',
                 duties: [
                     'Supervisar y liderar el departamento técnico, responsable de la ejecución y eficiencia de proyectos solares de principio a fin',
                     'Desarrollar y optimizar soluciones fotovoltaicas para aplicaciones residenciales y comerciales, asegurando la optimización de la producción de energía.',
@@ -110,7 +110,7 @@ export const personalDataES = {
                 title: 'Gestor de Proyectos de Energía Renovable',
                 period: 'Febrero 2021 - Enero 2022',
                 city: 'Marratxí, Islas Baleares, España',
-                description: 'Desarrollé y optimicé sistemas fotovoltaicos mediante el diseño de instalaciones, la realización de estudios de ahorro con software a medida y la gestión de documentación técnica para mejorar la producción solar y la eficiencia del autoconsumo.',
+                description: 'Desarrollo y optimización de sistemas fotovoltaicos a través del diseño de instalaciones, realización de estudios de ahorro mediante software personalizado y gestión de documentación técnica, con el objetivo de mejorar la producción solar y la eficiencia del autoconsumo.',
                 duties: [
                     'Liderar el departamento técnico.',
                     'Gestión de material fotovoltaico. Contacto con proveedores y elección del mejor tipo de material para cada instalación.',
@@ -132,13 +132,13 @@ export const personalDataES = {
                 title: 'Emprendimiento',
                 period: '2019 - 2021',
                 city: 'Palma de Mallorca, Islas Baleares, España',
-                description: 'Fundé y gestioné una empresa de marketing digital, adquiriendo experiencia práctica en gestión empresarial y relaciones con clientes. Simultáneamente desarrollé habilidades de programación, centrándome en JavaScript, desarrollo web y automatización de Excel.',
+                description: 'Fundación y gestión de una empresa de marketing digital, adquiriendo experiencia práctica en administración empresarial y relaciones con clientes. Desarrollo autodidacta de habilidades de programación, con enfoque en JavaScript, desarrollo web y automatización con Excel VBA.',
                 duties: [
-                    'Desarrollé y ejecuté estrategias de marketing digital para diversos clientes.',
-                    'Aprendí de forma autodidacta JavaScript, desarrollo web y Excel VBA para automatización empresarial.',
-                    'Gestioné todos los aspectos de las operaciones comerciales, desde la adquisición de clientes hasta la entrega de proyectos.',
-                    'Me adapté a los desafíos del mercado, mejorando las habilidades de resolución de problemas y toma de decisiones.',
-                    'Demostré capacidad para el trabajo independiente, gestión eficiente del tiempo y aprendizaje continuo.',
+                    'Desarrollo y ejecución de estrategias de marketing digital para diversos clientes.',
+                    'Aprendizaje autodidacta JavaScript, desarrollo web y Excel VBA para automatización empresarial.',
+                    'Gestión de todos los aspectos de las operaciones comerciales, desde la adquisición de clientes hasta la entrega de proyectos.',
+                    'Adaptación a los desafíos del mercado, mejorando las habilidades de resolución de problemas y toma de decisiones.',
+                    'Capacidad de trabajo independiente, gestión eficiente del tiempo y aprendizaje continuo.',
                 ],
             },
             {

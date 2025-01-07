@@ -18,7 +18,7 @@ export const personalDataEN = {
       email: 'marctonimas@outlook.es',
       phone: '+34 652 13 48 06',
       linkedin: 'Connect on LinkedIn',
-      summary: 'Innovative engineer transitioning from solar energy to web development and automation. Combining 4+ years of experience in optimizing complex systems with emerging skills in JavaScript, React, and blockchain technologies. Passionate learner and problem-solver, eager to tackle new challenges in software development. Seeking to leverage unique blend of renewable energy expertise and coding enthusiasm to create cutting-edge solutions at the intersection of sustainability and technology.',
+      summary: 'Versatile professional transitioning from Renewable Energy to Web Development and Process Automation. Merging 3+ years of expertise in solar engineering and innovation with advanced proficiency in JavaScript and blockchain technologies. Experienced in leading software development initiatives and automating workflows. Passionate problem-solver with a background in physics and nanoscience, eager to create cutting-edge solutions at the intersection of sustainability and technology. Skilled in data analysis, project management, and custom tool development using JavaScript, VBA, and Microsoft Power Tools.',
     },
     education: {
       title: 'Education',
