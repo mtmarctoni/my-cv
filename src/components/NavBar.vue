@@ -7,7 +7,7 @@ const { personalData, isDarkMode, currentLanguage } = defineProps(['personalData
 const { displayName } = personalData.profile
 defineEmits(['language-changed', 'toggle-dark-mode'])
 
-const { cvPdfLink } = data
+const cvPdfLink = data.cvPdfLink[currentLanguage === 'en' ? 'EN' : 'ES']
 
 </script>
 

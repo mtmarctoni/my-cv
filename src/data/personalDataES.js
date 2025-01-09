@@ -282,22 +282,18 @@ export const personalDataES = {
               {
                 name: "Castellano",
                 level: "Lengua Materna",
-                flag: "/my-cv/icons/spain-flag.svg"
               },
               {
                 name: "Catalán",
                 level: "Lengua Materna",
-                flag: "/my-cv/icons/catalonia-flag.svg"
               },
               {
                 name: "Inglés",
                 level: "Uso Profesional",
-                flag: "/my-cv/icons/english-flag.svg"
               },
               {
                 name: "Alemán",
                 level: "Nivel Básico",
-                flag: "/my-cv/icons/german-flag.svg"
               }
             ],
           }

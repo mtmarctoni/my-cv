@@ -26,7 +26,10 @@ import {SpanishIcon, EnglishIcon, GermanIcon, CatalanIcon } from '../composables
 
 
 export const data = {
-    cvPdfLink: '/my-cv/transcripts/CV_MarcToniMas.pdf',
+    cvPdfLink: {
+        'EN': "/my-cv/transcripts/CV_MarcToniMas.pdf",
+        'ES': "/my-cv/transcripts/CV_MarcToniMas_ES.pdf",
+    },
     experience: {
         images: [
             {
