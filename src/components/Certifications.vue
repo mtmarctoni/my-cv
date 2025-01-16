@@ -7,7 +7,7 @@ const { title, subtitle, button, certificationList } = personalData.certificatio
 <template>
     <section class="mb-12">
       <h2 class="text-3xl font-bold text-primary mb-8">{{ title }}</h2>
-      <div class="space-y-4">
+      <div class="space-y-4 flex flex-col">
         <a v-for="cert in certificationList" :key="cert.name"
         :href="cert.link" target="_blank">
         <div class="bg-backgroundAlt2 rounded-lg p-6 flex items-center gap-6 transition-all

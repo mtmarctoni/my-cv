@@ -271,6 +271,15 @@ export const personalDataES = {
             img: '/my-cv/icons/university-of-helsinki.svg',
             imgD: '/my-cv/icons/university-of-helsinki-dark.svg',
           },
+          {
+            id: 1,
+            name: 'Full Stack open - TypeScript',
+            link: 'https://studies.cs.helsinki.fi/stats/api/certificate/fs-typescript/en/be849d834d170356fdb75d0f1637155f',
+            institution: 'Universidad de Helsinki',
+            date: 'Enero 2025',
+            img: '/my-cv/icons/university-of-helsinki.svg',
+            imgD: '/my-cv/icons/university-of-helsinki-dark.svg',
+          },
         ]
         },
         others: {
