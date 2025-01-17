@@ -38,9 +38,9 @@ const { currentLanguage, personalData, changeLanguage } = useLanguage()
             <div class="container p-8">
 
               <Profile :personalData="personalData" />
+              <Skills :personalData="personalData"/>
               <Experience :personalData="personalData"/>
               <Education :personalData="personalData"/>
-              <Skills :personalData="personalData"/>
               <Certifications :personalData="personalData"/>
               <Others :personalData="personalData"/>
 
